@@ -13,7 +13,7 @@ We worked on this project that aims to convert someone's voice to a famous Engli
 [voice](https://soundcloud.com/andabi/sets/voice-style-transfer-to-kate-winslet-with-deep-neural-networks).
 We implemented a deep neural networks to achieve that and more than 2 hours of audio book sentences read by Kate Winslet are used as a dataset.
 
-<p align="center"><img src="https://raw.githubusercontent.com/andabi/deep-voice-conversion/master/materials/title.png" width="50%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ds5678/deep-voice-conversion/master/materials/title.png" width="50%"></p>
 
 ## Model Architecture
 This is a many-to-one voice conversion system.
@@ -21,7 +21,7 @@ The main significance of this work is that we could generate a target speaker's 
 (To make these parallel datasets needs a lot of effort.)
 All we need in this project is a number of waveforms of the target speaker's utterances and only a small set of <wav, phone> pairs from a number of anonymous speakers.
 
-<p align="center"><img src="https://raw.githubusercontent.com/andabi/deep-voice-conversion/master/materials/architecture.png" width="85%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ds5678/deep-voice-conversion/master/materials/architecture.png" width="85%"></p>
 
 The model architecture consists of two modules:
 1. Net1(phoneme classification) classify someone's utterances to one of phoneme classes at every timestep.
@@ -78,7 +78,7 @@ Net2 contains Net1 as a sub-network.
       * x-axis represents phoneme classes and y-axis represents timesteps
       * the first class of x-axis means silence.
 
-<p align="center"><img src="https://raw.githubusercontent.com/andabi/deep-voice-conversion/master/materials/phoneme_dist.png" width="30%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ds5678/deep-voice-conversion/master/materials/phoneme_dist.png" width="30%"></p>
 
 ## Tips (Lessons We've learned from this project)
 * Window length and hop length have to be small enough to be able to fit in only a phoneme.

@@ -22,3 +22,31 @@ documentation
  - step-by-step explanation on code
  - tips
  - result
+
+---
+Translated:
+
+It is difficult to learn Multi Modal.
+If you do not apply proper regulation, MU and PI are gathered as the same value, and fall into the topical store.
+Loss Termers can be considered to force MUs not to dry.
+If LOSS reaches the limit, it is no longer degraded.
+
+Variance should also be learned.
+I first fixed it and learned only the MU, and the expression of the distribution was not good, and it was not good to get a high LIKELIHOOD.
+
+Inference City Dominant Dist. Purple. Therefore, in the time of learning, the maximum of the maximum of the value of the value in the distribution is maximizes.
+Mixture is better than a single distribution as a different single dist.
+* Logsumexp
+
+Edge Case
+
+Normalization is important before PI Softmax.
+
+---
+documentation
+- why mol?
+ - the importance on multi modal modeling in generation task.
+- experiments on single and multi modal
+ - step-by-step explanation on code
+ - tips
+ - result
