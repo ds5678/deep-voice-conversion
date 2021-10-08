@@ -5,7 +5,7 @@ datasets
 .DS_Store
 outputs
 __*
-hparams
 tools
 .vs
 obj
+bin
